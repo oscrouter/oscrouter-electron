@@ -1,0 +1,36 @@
+{
+  "extends": [
+    "tslint:recommended",
+    "tslint-react",
+    "./node_modules/electron-webpack/tsconfig-base.json"
+  ],
+  "compilerOptions": {
+    "jsx": "react"
+  },
+  "rules": {
+    "max-line-length": {
+      "options": [
+        120
+      ]
+    },
+    "align": false,
+    "new-parens": true,
+    "ordered-imports": true,
+    "member-ordering": [
+      true,
+      {
+        "order": "fields-first"
+      }
+    ],
+    "no-arg": true,
+    "no-consecutive-blank-lines": false,
+    "no-trailing-whitespace": true,
+    "quotemark": [
+      true,
+      "single",
+      "jsx-double",
+      "avoid-escape"
+    ],
+    "newline-before-return": true
+  }
+}

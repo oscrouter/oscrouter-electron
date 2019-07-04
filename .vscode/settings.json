@@ -1,0 +1,43 @@
+{
+	"editor.insertSpaces": false,
+	"editor.renderControlCharacters": true,
+	"editor.renderWhitespace": "all",
+	"files.trimTrailingWhitespace": true,
+	"window.zoomLevel": 0,
+	// These are all my auto-save configs
+	"editor.formatOnSave": true,
+	"[javascript]": {
+		"editor.formatOnSave": false
+	},
+	"[javascriptreact]": {
+		"editor.formatOnSave": false
+	},
+	"[typescript]": {
+		"editor.formatOnSave": false
+	},
+	"[typescriptreact]": {
+		"editor.formatOnSave": false
+	},
+	"files.associations": {
+		"*.jsx": "javascriptreact"
+	},
+	"eslint.autoFixOnSave": true,
+	"prettier.disableLanguages": [
+		"javascript",
+		"javascriptreact",
+		"typescript",
+		"typescriptreact"
+	],
+	"eslint.validate": [
+		"javascript",
+		"javascriptreact",
+		{
+			"language": "typescript",
+			"autoFix": true
+		},
+		{
+			"language": "typescriptreact",
+			"autoFix": true
+		}
+	]
+}
