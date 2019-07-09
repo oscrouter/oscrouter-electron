@@ -12,6 +12,8 @@ function createMainWindow() {
     webPreferences: {
       nodeIntegration: true,
     },
+    minHeight: 215,
+    minWidth: 550,
   });
 
   if (isDevelopment) {
